@@ -1,0 +1,135 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+:root
+{
+	--corBranco: rgb(255, 255, 255);
+	--corPreto: rgb(0, 0, 0);	
+}
+
+html, body
+{
+	height: 100vh;
+	font-family: Arial, "Sans_serif", Helvetica;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+header
+{
+	display: flex;
+	background-color: var(--corPreto);
+	position: fixed;
+	width: 100%;
+	justify-content: space-around;
+}
+
+nav
+{
+	color: var(--corBranco);
+	font-weight: bold;
+} 
+
+header img
+{
+	height: 100px;
+	width: 100px;
+}
+
+header ul
+{
+	margin-top: 50px;
+}
+
+header li
+{
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+
+section article h2
+{
+	color: var(--corBranco);
+	margin: auto;	
+}
+
+footer
+{
+	height: 100vh;
+	background-color: var(--corPreto);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer img
+{
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
+
+#secao-destaque
+{
+	background-image: url('../img/fundo-arden-1.png');
+	background-size: cover;
+	height: 100vh;
+}
+
+#secao-ministerio
+{
+	height: 100vh;	
+	text-align: center;
+}
+
+#secao-ministerio-1, #secao-ministerio-2
+{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+#secao-ministerio-1 article, #secao-ministerio-2 article
+{
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	text-align: center;
+}
+
+#artigo-mulher
+{
+	background-image: url('../img/mulher-crista-1.jpeg');
+}
+
+#artigo-homem
+{
+	background-image: url('../img/homem-cristao-1.jpeg');
+}
+
+#artigo-jovem
+{
+	background-image: url('../img/jovem-cristao-1.jpeg');
+}
+
+#artigo-casal
+{
+	background-image: url('../img/casal-cristao-1.jpeg');
+}
+
+#artigo-missao
+{
+	background-image: url('../img/missao-crista-1.jpeg');
+}
+
+#artigo-kid
+{
+	background-image: url('../img/infantil-cristao-1.jpeg');
+}
